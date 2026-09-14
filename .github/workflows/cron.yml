@@ -37,11 +37,12 @@ jobs:
         with:
           python-version: '3.11'
           cache: 'pip'
+          cache-dependency-path: 'requirements.txt'
 
       - name: 📦 Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install openai requests numpy scikit-learn
+          pip install -r requirements.txt
 
       - name: 🌌 Run build_universe.py to generate 3D star coordinates
         env:
@@ -65,10 +66,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
       - name: 📦 Install npm dependencies
-        run: npm ci
+        run: npm install
 
       - name: ⚡ Build Vite web application
         run: npm run build
