@@ -1,0 +1,83 @@
+name: Daily Show HN Universe Update & Deploy
+
+on:
+  schedule:
+    # 毎日 日本時間 午前6:00 (UTC 21:00) に自動実行
+    - cron: '0 21 * * *'
+  workflow_dispatch: # GitHubのActionsタブから手動即時実行も可能
+  push:
+    branches:
+      - main
+
+# GitHub Pages と リポジトリへの書き込み権限
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 同時デプロイの競合防止
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: 🐍 Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 📦 Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai requests numpy scikit-learn
+
+      - name: 🌌 Run build_universe.py to generate 3D star coordinates
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python build_universe.py --limit 40
+
+      - name: 💾 Commit & push updated data.json to repository
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data.json data.json || true
+          if git diff --staged --quiet; then
+            echo "No changes in universe data."
+          else
+            git commit -m "chore(galaxy): cosmic sync with latest Show HN [skip ci]"
+            git push origin main
+          fi
+
+      - name: 🟢 Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 📦 Install npm dependencies
+        run: npm ci
+
+      - name: ⚡ Build Vite web application
+        run: npm run build
+
+      - name: 🚀 Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist'
+
+      - name: 🌐 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

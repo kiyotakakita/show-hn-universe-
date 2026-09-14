@@ -1,0 +1,6 @@
+{
+  "name": "Show HN Universe",
+  "description": "3D galaxy explorer for Hacker News Show HN projects with clustering, AI summaries, and real-time cosmic mapping",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
