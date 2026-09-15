@@ -95,9 +95,3 @@ Issue or submit a PR.
 
 This project is open-sourced under the MIT License.
 
-
----
-
-### コピペした後の調整ポイント（2箇所だけ）
-1. `YOUR_USERNAME` となっている部分を、ご自身の**GitHubユーザー名**に一括置換してください。
-2. もしスマホやPCで動いている画面のスクリーンショットが撮れたら、リポジトリに `demo.png` などの名前で置いて、画像リンクのコメントアウト（`<!-- ![Demo Screenshot]... -->`）を外すと、海外の開発者からのスター（★）が付きやすくなります！
