@@ -1,4 +1,4 @@
-GitHubのリポジトリトップにそのままコピペして使える、海外の開発# 🌌 Show HN Universe
+海外の開発# 🌌 Show HN Universe
 
 > **A living, interactive 3D galaxy of "Show HN" projects, updated daily.**
 
