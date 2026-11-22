@@ -1,280 +1,125 @@
 [
   {
-    "id": 50581403,
-    "title": "Show HN: OpenComputer – an open source alternative to Devin",
-    "url": "https://github.com/diggerhq/opencomputer",
-    "hnUrl": "https://news.ycombinator.com/item?id=50581403",
-    "points": 68,
-    "commentsCount": 21,
-    "author": "iacguy",
-    "postedDate": "2026-11-20",
+    "id": 50590279,
+    "title": "Show HN: Zero C# – C# without a runtime or GC",
+    "url": "https://onurgumus.github.io/zero-csharp/index.html",
+    "hnUrl": "https://news.ycombinator.com/item?id=50590279",
+    "points": 124,
+    "commentsCount": 96,
+    "author": "reverseblade2",
+    "postedDate": "2026-11-21",
     "cluster": "devtools-compilers",
     "position": [
-      13.58,
-      23.28,
-      -16.55
+      16.24,
+      20.04,
+      -1.92
     ],
     "tags": [
-      "#オープンソース",
-      "#クラウド",
-      "#コーディングエージェント"
+      "#CSharp",
+      "#コンパイラ",
+      "#ランタイム不要"
     ],
     "summary": {
-      "oneLiner": "OpenComputerはチーム向けのオープンソースクラウドコーディングエージェントです。",
+      "oneLiner": "ランタイムやガベージコレクションなしで動作するC#を提供するアプリ。",
       "highlights": [
-        "自分のクラウドアカウントで動作可能なエージェント。",
-        "他の選択肢よりも迅速な初回コミット時間を実現。"
+        "C#のコードを直接ネイティブにコンパイルする技術。",
+        "ガベージコレクションが不要なため、パフォーマンスが向上する。"
       ],
-      "targetAudience": "クラウド開発環境を求める開発チーム。",
-      "hackIdea": "さらに多くのクラウドプロバイダーに対応し、ユーザーインターフェースを改善することで使いやすさを向上させる。"
+      "targetAudience": "パフォーマンスを重視する開発者やシステムプログラマー。",
+      "hackIdea": "他のプログラミング言語への対応や、IDEの統合を進める。"
     },
     "isSupernova": true
   },
   {
-    "id": 50526023,
-    "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
-    "url": "https://kobi.music/research/dettato",
-    "hnUrl": "https://news.ycombinator.com/item?id=50526023",
-    "points": 241,
-    "commentsCount": 50,
-    "author": "hidude562",
-    "postedDate": "2026-11-17",
-    "cluster": "ai-agents",
+    "id": 50541047,
+    "title": "Show HN: An ASCII cell aquarium for your terminal",
+    "url": "https://github.com/kborer/cells/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50541047",
+    "points": 51,
+    "commentsCount": 17,
+    "author": "kborer",
+    "postedDate": "2026-11-18",
+    "cluster": "devtools-compilers",
     "position": [
-      -31.85,
-      9.07,
-      6.11
+      14.29,
+      20.83,
+      -15.2
     ],
     "tags": [
-      "#音声処理",
-      "#MIDI変換",
-      "#機械学習"
+      "#ASCII",
+      "#terminal",
+      "#simulation"
     ],
     "summary": {
-      "oneLiner": "音声をMIDIに変換する効率的なモデルを開発しました。",
+      "oneLiner": "ターミナル用のASCIIセル水族館アプリ。",
       "highlights": [
-        "従来のモデルに比べて60倍小型化されている。",
-        "著作権で保護された録音を使用せずにトレーニングされている。"
+        "細胞が分裂し、免疫細胞がバクテリアを追いかけるシミュレーション。",
+        "グラフィックの制限を考慮した追加アニメーションの提案を求めている。"
       ],
-      "targetAudience": "音楽制作や音声認識に興味がある開発者やクリエイター。",
-      "hackIdea": "さらに小型化し、リアルタイム処理機能を追加することで、ライブ演奏に対応できるようにする。"
+      "targetAudience": "ターミナルでのユニークな体験を求めるプログラマーや生物学者。",
+      "hackIdea": "異なる細胞やイベントのアニメーションを追加し、視覚的に目立つ要素を強化する。"
     },
     "isSupernova": true
   },
   {
-    "id": 50532515,
-    "title": "Show HN: An API for word timestamps from speech, 75% within 20ms",
-    "url": "https://quebec.yarn.so",
-    "hnUrl": "https://news.ycombinator.com/item?id=50532515",
-    "points": 63,
-    "commentsCount": 10,
-    "author": "jasperstory",
-    "postedDate": "2026-11-17",
-    "cluster": "ai-agents",
-    "position": [
-      -38.2,
-      11.66,
-      6.0
-    ],
-    "tags": [
-      "#API",
-      "#音声処理",
-      "#動画編集"
-    ],
-    "summary": {
-      "oneLiner": "音声から正確な単語のタイムスタンプを取得できるAPI。",
-      "highlights": [
-        "75%の精度で20ms以内のタイムスタンプを提供。",
-        "トランスクリプトと音声を基にしたフォースアライナーを使用。"
-      ],
-      "targetAudience": "動画編集や音声処理を行うスタートアップや開発者。",
-      "hackIdea": "AIを活用して音声の自動トランスクリプション機能を追加し、リアルタイムでの字幕生成を実現する。"
-    },
-    "isSupernova": true
-  },
-  {
-    "id": 50584843,
-    "title": "Show HN: Pstview – read-only PST/OST viewer",
-    "url": "https://github.com/publicarray/pstview",
-    "hnUrl": "https://news.ycombinator.com/item?id=50584843",
-    "points": 3,
+    "id": 50594649,
+    "title": "Show HN: Security Watch – alerts when a new vulnerability affects your stack",
+    "url": "https://github.com/ShieldaAI/security-watch",
+    "hnUrl": "https://news.ycombinator.com/item?id=50594649",
+    "points": 2,
     "commentsCount": 0,
-    "author": "publicarray",
+    "author": "VDudaG-A",
+    "postedDate": "2026-11-21",
+    "cluster": "privacy-decentralized",
+    "position": [
+      44.63,
+      -10.75,
+      29.36
+    ],
+    "tags": [
+      "#セキュリティ",
+      "#脆弱性",
+      "#アラート"
+    ],
+    "summary": {
+      "oneLiner": "新しい脆弱性が発生した際にアラートを受け取るツール。",
+      "highlights": [
+        "自分の技術スタックに影響を与える脆弱性をリアルタイムで通知",
+        "安全性を高めるためのカスタマイズ可能なアラート設定"
+      ],
+      "targetAudience": "開発者やセキュリティ専門家に最適。",
+      "hackIdea": "脆弱性の評価を自動化し、影響度に応じた優先順位を付ける機能を追加したい。"
+    },
+    "isSupernova": true
+  },
+  {
+    "id": 50594546,
+    "title": "Show HN: Hearthen, an app for building and keeping strong relationships",
+    "url": "https://hearthenapp.com",
+    "hnUrl": "https://news.ycombinator.com/item?id=50594546",
+    "points": 3,
+    "commentsCount": 1,
+    "author": "mamorales",
     "postedDate": "2026-11-21",
     "cluster": "productivity-pkm",
     "position": [
-      18.45,
-      32.61,
-      22.28
+      9.61,
+      37.98,
+      10.5
     ],
     "tags": [
-      "#PSTViewer",
-      "#Outlook",
-      "#DataRecovery"
+      "#人間関係",
+      "#生産性",
+      "#アプリ"
     ],
     "summary": {
-      "oneLiner": "古いOutlookファイルを簡単に読み取るためのビューアー。",
+      "oneLiner": "Hearthenは人間関係を強化するためのアプリです。",
       "highlights": [
-        "古いPST/OSTファイルを安全に読み取れる。",
-        "Classic Outlookを使わずにデータを復元できる。"
+        "ユーザーが関係を維持するための機能を提供",
+        "自己改善やコミュニケーションの促進を目的とした設計"
       ],
-      "targetAudience": "古いメールデータを扱う必要がある人々。",
-      "hackIdea": "ユーザーインターフェースを改善し、ファイルの検索機能を追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50561199,
-    "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
-    "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
-    "hnUrl": "https://news.ycombinator.com/item?id=50561199",
-    "points": 123,
-    "commentsCount": 32,
-    "author": "vihren",
-    "postedDate": "2026-11-19",
-    "cluster": "web-creative",
-    "position": [
-      -22.86,
-      -17.9,
-      10.77
-    ],
-    "tags": [
-      "#OpenStreetMap",
-      "#ナビゲーションアプリ",
-      "#検索エンジン"
-    ],
-    "summary": {
-      "oneLiner": "OpenStreetMapデータのための高速かつ決定論的な自然言語検索アプリです。",
-      "highlights": [
-        "OpenStreetMapに基づく独自のOverpass APIエンジンを使用した迅速なPOI検索",
-        "Google Mapsに依存しないマップとナビゲーションの実現を目指す"
-      ],
-      "targetAudience": "地図アプリやナビゲーションにこだわるユーザー",
-      "hackIdea": "より多様なPOI情報を取り入れるために、ユーザーのフィードバックによる検索改善機能を追加する"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50583881,
-    "title": "Show HN: SaturnSQL Context, telling AI tools what the database means",
-    "url": "https://saturnsql.com/context-layer",
-    "hnUrl": "https://news.ycombinator.com/item?id=50583881",
-    "points": 3,
-    "commentsCount": 1,
-    "author": "infr88",
-    "postedDate": "2026-11-20",
-    "cluster": "ai-agents",
-    "position": [
-      -37.23,
-      26.6,
-      -19.53
-    ],
-    "tags": [
-      "#AI",
-      "#データベース",
-      "#コンテキスト"
-    ],
-    "summary": {
-      "oneLiner": "AIがデータを扱う際の文脈を提供するツール。",
-      "highlights": [
-        "データベースのテーブルを説明し、自由形式のMarkdownノートを作成できる。",
-        "全社で統一した方法でアクティブユーザーを計算できるSQL定義を設定可能。"
-      ],
-      "targetAudience": "AIを活用してデータを扱う開発者やデータアナリスト。",
-      "hackIdea": "ユーザーが直感的にデータモデルを視覚化できるUIを追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50537626,
-    "title": "Show HN: Professor Euler – Offline math desk, 300-function CAS, workbooks",
-    "url": "https://euler.dawei7.com",
-    "hnUrl": "https://news.ycombinator.com/item?id=50537626",
-    "points": 13,
-    "commentsCount": 0,
-    "author": "dawei7",
-    "postedDate": "2026-11-17",
-    "cluster": "productivity-pkm",
-    "position": [
-      15.11,
-      32.26,
-      19.91
-    ],
-    "tags": [
-      "#数学",
-      "#オフライン",
-      "#CAS"
-    ],
-    "summary": {
-      "oneLiner": "オフラインで使用できる300機能の計算代数システムを備えた数学デスクアプリ。",
-      "highlights": [
-        "300以上の数学関数をサポートする計算代数システム。",
-        "オフライン環境でも利用可能で、学習や研究に便利。"
-      ],
-      "targetAudience": "数学を学ぶ学生や研究者に最適。",
-      "hackIdea": "ユーザーが自作のワークブックを共有できる機能を追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50559749,
-    "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
-    "url": "https://foolscap.works/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50559749",
-    "points": 118,
-    "commentsCount": 92,
-    "author": "atugard",
-    "postedDate": "2026-11-19",
-    "cluster": "productivity-pkm",
-    "position": [
-      -0.35,
-      31.02,
-      23.69
-    ],
-    "tags": [
-      "#ライティング",
-      "#クリエイティビティ",
-      "#生産性"
-    ],
-    "summary": {
-      "oneLiner": "自分の書いた内容を解析し、創造性を高めるライティングアプリ。",
-      "highlights": [
-        "書いた内容を読み取り、構造を把握する機能。",
-        "ユーザーとの対話を重視した設計。"
-      ],
-      "targetAudience": "ライティングや創造的な作業に取り組む人々。",
-      "hackIdea": "ユーザーが自分のスタイルを学習する機能を追加し、よりパーソナライズされた提案を行う。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50581718,
-    "title": "Show HN: Bellripple – a quiet Korean temple garden in the browser",
-    "url": "https://bellripple.com/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50581718",
-    "points": 4,
-    "commentsCount": 0,
-    "author": "bobwoo",
-    "postedDate": "2026-11-20",
-    "cluster": "web-creative",
-    "position": [
-      -4.75,
-      -30.95,
-      10.06
-    ],
-    "tags": [
-      "#KoreanTemple",
-      "#Garden",
-      "#WebExperience"
-    ],
-    "summary": {
-      "oneLiner": "ブラウザで楽しむ静かな韓国の寺院庭園。",
-      "highlights": [
-        "実際の寺院の静けさを再現したインタラクティブな体験。",
-        "自然な音や美しいデザインが特徴。"
-      ],
-      "targetAudience": "リラックスしたい人や自然を感じたい人。",
-      "hackIdea": "ユーザーが自分の庭園をカスタマイズできる機能を追加する。"
+      "targetAudience": "人間関係を大切にしたいと考える人に最適。",
+      "hackIdea": "友人の誕生日や記念日を自動でリマインドする機能を追加したい。"
     },
     "isSupernova": false
   },
@@ -283,29 +128,587 @@
     "title": "Show HN: Tinnitus frequency finder and audio notch tool",
     "url": "https://trynotched.com/find",
     "hnUrl": "https://news.ycombinator.com/item?id=50541568",
-    "points": 141,
-    "commentsCount": 107,
+    "points": 218,
+    "commentsCount": 132,
     "author": "brianrhea",
     "postedDate": "2026-11-18",
-    "cluster": "productivity-pkm",
+    "cluster": "ai-agents",
     "position": [
-      13.48,
-      21.83,
-      47.53
+      -14.39,
+      10.65,
+      -28.66
     ],
     "tags": [
       "#Tinnitus",
       "#HealthTech",
-      "#AudioTool"
+      "#AudioTherapy"
     ],
     "summary": {
-      "oneLiner": "耳鳴りの周波数を特定し音を調整するツール。",
+      "oneLiner": "耳鳴りの周波数を特定し、音を調整するツール。",
       "highlights": [
-        "耳鳴りの周波数を見つけるためのインタラクティブな機能。",
-        "ユーザーが自分の耳鳴りに合わせた音をノッチフィルターで調整できる。"
+        "耳鳴りの周波数を特定するための便利なツールを提供。",
+        "特定した周波数に基づいて音を調整する無料のウェブアプリが利用可能。"
       ],
-      "targetAudience": "耳鳴りに悩む人や音に敏感な人。",
-      "hackIdea": "個人の耳鳴りデータをトラッキングして、効果的な音環境を提案する機能を追加。"
+      "targetAudience": "耳鳴りに悩む人々や音療法に興味がある人。",
+      "hackIdea": "ユーザーが自分の耳鳴りの音を記録し、アプリ内でフィードバックを得られる機能を追加する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50526023,
+    "title": "Show HN: I made an audio-to-MIDI model 60x more efficient",
+    "url": "https://kobi.music/research/dettato",
+    "hnUrl": "https://news.ycombinator.com/item?id=50526023",
+    "points": 298,
+    "commentsCount": 68,
+    "author": "hidude562",
+    "postedDate": "2026-11-17",
+    "cluster": "ai-agents",
+    "position": [
+      -20.08,
+      10.04,
+      -19.68
+    ],
+    "tags": [
+      "#音声処理",
+      "#MIDI",
+      "#機械学習"
+    ],
+    "summary": {
+      "oneLiner": "音声をMIDIに変換するモデルを60倍小型化したアプリ。",
+      "highlights": [
+        "従来のモデルよりも60倍小型で効率的。",
+        "著作権で保護された録音なしでトレーニングを実施。"
+      ],
+      "targetAudience": "音楽制作や音声解析に興味のある開発者やミュージシャン。",
+      "hackIdea": "リアルタイムで音声をMIDIに変換する機能を追加したい。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50589184,
+    "title": "Show HN: I made a PS1 style racing game",
+    "url": "https://outpostracer.com",
+    "hnUrl": "https://news.ycombinator.com/item?id=50589184",
+    "points": 22,
+    "commentsCount": 14,
+    "author": "shash7",
+    "postedDate": "2026-11-21",
+    "cluster": "web-creative",
+    "position": [
+      -41.81,
+      -19.35,
+      -1.74
+    ],
+    "tags": [
+      "#ゲーム",
+      "#レトロ",
+      "#PS1スタイル"
+    ],
+    "summary": {
+      "oneLiner": "PS1風のレトロレーシングゲームを作成しました。",
+      "highlights": [
+        "ChatGPTの助けを借りて開発した独自のゲーム",
+        "懐かしいPS1スタイルのグラフィック"
+      ],
+      "targetAudience": "レトロゲームファンやゲーム開発に興味がある人",
+      "hackIdea": "オンライン対戦モードを追加して、プレイヤー同士で競えるようにしたい"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50593862,
+    "title": "Show HN: It's now easy to install Linux on an Android Phone – Android2linux",
+    "url": "https://github.com/android2linux/android2linux",
+    "hnUrl": "https://news.ycombinator.com/item?id=50593862",
+    "points": 4,
+    "commentsCount": 2,
+    "author": "brazukadev",
+    "postedDate": "2026-11-21",
+    "cluster": "systems-hardware",
+    "position": [
+      -1.65,
+      -24.86,
+      -26.5
+    ],
+    "tags": [
+      "#Linux",
+      "#Android",
+      "#OpenSource"
+    ],
+    "summary": {
+      "oneLiner": "AndroidフォンにLinuxを簡単にインストールできるアプリ。",
+      "highlights": [
+        "Claudeを使用してLinuxを簡単にインストールできるようにした。",
+        "postmarketOSが4G、SMS、ターミナル、SSHをサポートしている。"
+      ],
+      "targetAudience": "LinuxやAndroidのカスタマイズに興味があるユーザー。",
+      "hackIdea": "さらなるデバイスサポートを追加し、ユーザーインターフェースを改善する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50593848,
+    "title": "Show HN: Open-Source Vulnerability Scanner",
+    "url": "https://waffuru.ai/products/pantry",
+    "hnUrl": "https://news.ycombinator.com/item?id=50593848",
+    "points": 5,
+    "commentsCount": 0,
+    "author": "ekryski",
+    "postedDate": "2026-11-21",
+    "cluster": "devtools-compilers",
+    "position": [
+      42.47,
+      9.64,
+      -12.13
+    ],
+    "tags": [
+      "#オープンソース",
+      "#脆弱性スキャナー",
+      "#セキュリティ"
+    ],
+    "summary": {
+      "oneLiner": "オープンソースの脆弱性スキャナーで、新しいCVEに対応するのを簡単にするツール。",
+      "highlights": [
+        "新しいCVEに対する適用性を簡単に判断できる機能",
+        "社内での利用を目的としつつオープンソース化された"
+      ],
+      "targetAudience": "セキュリティや開発に関心のある人々",
+      "hackIdea": "ユーザーが自分のプロジェクトに関連するCVEを自動的にフィルタリングする機能を追加"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50589235,
+    "title": "Show HN: agent-mcts – Monte Carlo tree search on top of Claude Code",
+    "url": "https://github.com/natsu0529/agent-mcts",
+    "hnUrl": "https://news.ycombinator.com/item?id=50589235",
+    "points": 12,
+    "commentsCount": 0,
+    "author": "natsu529",
+    "postedDate": "2026-11-21",
+    "cluster": "ai-agents",
+    "position": [
+      -31.15,
+      -4.67,
+      3.67
+    ],
+    "tags": [
+      "#MonteCarloTreeSearch",
+      "#AI",
+      "#ClaudeCode"
+    ],
+    "summary": {
+      "oneLiner": "Claude Codeの上に構築されたモンテカルロ木探索エージェント。",
+      "highlights": [
+        "Claude Codeを活用した新しいAIエージェントの実装。",
+        "モンテカルロ木探索の手法を用いて意思決定を行う"
+      ],
+      "targetAudience": "AIやゲーム理論に興味がある開発者や研究者",
+      "hackIdea": "他のAIモデルと組み合わせた新しい探索手法の実装"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50581403,
+    "title": "Show HN: OpenComputer – an open source alternative to Devin",
+    "url": "https://github.com/diggerhq/opencomputer",
+    "hnUrl": "https://news.ycombinator.com/item?id=50581403",
+    "points": 116,
+    "commentsCount": 36,
+    "author": "iacguy",
+    "postedDate": "2026-11-20",
+    "cluster": "devtools-compilers",
+    "position": [
+      31.8,
+      5.07,
+      -6.39
+    ],
+    "tags": [
+      "#オープンソース",
+      "#クラウド",
+      "#開発ツール"
+    ],
+    "summary": {
+      "oneLiner": "OpenComputerは、チーム向けのオープンソースクラウドコーディングエージェントです。",
+      "highlights": [
+        "自己のクラウドアカウントで実行可能なエージェント。",
+        "従来の選択肢よりも速い初回コミット時間を実現。"
+      ],
+      "targetAudience": "クラウド環境で開発を行うチームに適している。",
+      "hackIdea": "より多くのクラウドプロバイダへの対応や、ユーザーインターフェースの改善を行いたい。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50561199,
+    "title": "Show HN: Fast deterministic natural language search for OpenStreetMap data",
+    "url": "https://hippomaps.ch/?q=cafes+by+the+Limmat+100+m+from+the+lake+in+zurich#map=15.02/47.36708/8.54935",
+    "hnUrl": "https://news.ycombinator.com/item?id=50561199",
+    "points": 136,
+    "commentsCount": 44,
+    "author": "vihren",
+    "postedDate": "2026-11-19",
+    "cluster": "web-creative",
+    "position": [
+      -14.54,
+      -20.08,
+      21.48
+    ],
+    "tags": [
+      "#地図",
+      "#ナビゲーション",
+      "#OpenStreetMap"
+    ],
+    "summary": {
+      "oneLiner": "OpenStreetMapデータのための高速かつ決定論的な自然言語検索を提供するアプリ。",
+      "highlights": [
+        "OpenStreetMapをベースにしたカスタムOverpass APIエンジンによる高速なPOI検索。",
+        "Google Mapsに依存せずに使える地図とナビゲーション機能を目指している。"
+      ],
+      "targetAudience": "地図やナビゲーションアプリを頻繁に使う人々。",
+      "hackIdea": "さらに多くの検索オプションやフィルター機能を追加して、ユーザーのニーズに応じたカスタマイズを可能にする。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50559749,
+    "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
+    "url": "https://foolscap.works/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50559749",
+    "points": 125,
+    "commentsCount": 94,
+    "author": "atugard",
+    "postedDate": "2026-11-19",
+    "cluster": "productivity-pkm",
+    "position": [
+      12.57,
+      38.57,
+      6.17
+    ],
+    "tags": [
+      "#ライティング",
+      "#クリエイティビティ",
+      "#生産性"
+    ],
+    "summary": {
+      "oneLiner": "Foolscapは書くことを支援するライティングアプリです。",
+      "highlights": [
+        "ユーザーが書くときにその構造を分析し、キャラクターやアイデアを整理する機能。",
+        "ユーザーとシステムの間に対話的なやり取りを促す設計。"
+      ],
+      "targetAudience": "創造的な執筆をしたい人々に最適です。",
+      "hackIdea": "AIを活用して、リアルタイムでフィードバックを提供し、ユーザーのスタイルに合わせてカスタマイズ可能な機能を追加したい。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50532515,
+    "title": "Show HN: An API for word timestamps from speech, 75% within 20ms",
+    "url": "https://quebec.yarn.so",
+    "hnUrl": "https://news.ycombinator.com/item?id=50532515",
+    "points": 81,
+    "commentsCount": 11,
+    "author": "jasperstory",
+    "postedDate": "2026-11-17",
+    "cluster": "ai-agents",
+    "position": [
+      -11.83,
+      9.88,
+      -24.86
+    ],
+    "tags": [
+      "#API",
+      "#音声認識",
+      "#動画編集"
+    ],
+    "summary": {
+      "oneLiner": "音声から正確な単語のタイムスタンプを取得するAPIを提供。",
+      "highlights": [
+        "75%の精度で20ms以内のタイムスタンプを実現。",
+        "スタートアップ向けに特化した動画編集アプリの機能を強化。"
+      ],
+      "targetAudience": "動画編集や音声処理に携わる開発者やクリエイター。",
+      "hackIdea": "リアルタイムでの音声認識とタイムスタンプ取得の機能を追加し、ライブ配信にも対応する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50592137,
+    "title": "Show HN: Pencil – LLM writes whiteboard lessons as JSON, a browser draws them",
+    "url": "https://github.com/VBS2004/pencil",
+    "hnUrl": "https://news.ycombinator.com/item?id=50592137",
+    "points": 3,
+    "commentsCount": 0,
+    "author": "VBS2004",
+    "postedDate": "2026-11-21",
+    "cluster": "web-creative",
+    "position": [
+      -28.41,
+      -3.92,
+      27.25
+    ],
+    "tags": [
+      "#AI",
+      "#教育",
+      "#ホワイトボード"
+    ],
+    "summary": {
+      "oneLiner": "LLMがホワイトボードのレッスンをJSON形式で作成し、ブラウザが描画するアプリ。",
+      "highlights": [
+        "AIを利用して教育コンテンツを自動生成する仕組み。",
+        "ブラウザ上で視覚的にレッスンを表示できるインタラクティブな体験。"
+      ],
+      "targetAudience": "教育者や学習者、インタラクティブな教材を求める人々。",
+      "hackIdea": "より多様なフォーマットへのエクスポート機能や、リアルタイムでの共同編集機能を追加する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50548660,
+    "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
+    "url": "https://news.ycombinator.com/item?id=50548660",
+    "hnUrl": "https://news.ycombinator.com/item?id=50548660",
+    "points": 156,
+    "commentsCount": 44,
+    "author": "codekarate",
+    "postedDate": "2026-11-18",
+    "cluster": "devtools-compilers",
+    "position": [
+      36.02,
+      4.23,
+      -22.73
+    ],
+    "tags": [
+      "#オープンソース",
+      "#TypeScript",
+      "#ソフトウェア工場"
+    ],
+    "summary": {
+      "oneLiner": "Mastraのメンテナンスを支援するオープンソースのソフトウェア工場。",
+      "highlights": [
+        "Mastraの週平均ダウンロード数が約400万に達した。",
+        "Mastra Factoryを使用して、チームが数百のマージを行うことが可能になった。"
+      ],
+      "targetAudience": "TypeScriptやオープンソースに興味がある開発者。",
+      "hackIdea": "より効率的なマージプロセスやCI/CDの統合を加え、開発フローをさらに改善できる。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50564684,
+    "title": "Show HN: LZ0 -An asymmetric LZ compressor with ultra minimal, 0-alloc decoder",
+    "url": "https://github.com/seb3773/lz0",
+    "hnUrl": "https://news.ycombinator.com/item?id=50564684",
+    "points": 23,
+    "commentsCount": 6,
+    "author": "seb3773",
+    "postedDate": "2026-11-19",
+    "cluster": "devtools-compilers",
+    "position": [
+      27.29,
+      16.1,
+      0.86
+    ],
+    "tags": [
+      "#圧縮",
+      "#LZアルゴリズム",
+      "#開発ツール"
+    ],
+    "summary": {
+      "oneLiner": "超ミニマルな0アロケーションデコーダを持つ非対称LZ圧縮ツール。",
+      "highlights": [
+        "0アロケーションで動作するデコーダを実現している。",
+        "シンプルな設計でありながら高効率な圧縮を提供。"
+      ],
+      "targetAudience": "低レベルのデータ圧縮に興味がある開発者やエンジニア。",
+      "hackIdea": "さらに圧縮率を向上させるために、異なるデータセットに対するパフォーマンス分析を行い、最適化を図る。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50591350,
+    "title": "Show HN: A modern reimagining of the Python progresssss bar",
+    "url": "https://github.com/minimaxir/psnek",
+    "hnUrl": "https://news.ycombinator.com/item?id=50591350",
+    "points": 3,
+    "commentsCount": 0,
+    "author": "minimaxir",
+    "postedDate": "2026-11-21",
+    "cluster": "devtools-compilers",
+    "position": [
+      17.75,
+      25.31,
+      -10.09
+    ],
+    "tags": [
+      "#Python",
+      "#ProgressBar",
+      "#DevelopmentTools"
+    ],
+    "summary": {
+      "oneLiner": "Pythonの進捗バーを現代的に再設計したアプリです。",
+      "highlights": [
+        "最新のデザインと機能を取り入れた進捗バー",
+        "使いやすさを重視したAPI設計"
+      ],
+      "targetAudience": "Python開発者やプログレスバーに興味がある人々",
+      "hackIdea": "多様なカスタマイズオプションを追加し、ユーザーが独自のスタイルを適用できるようにする。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50590838,
+    "title": "Show HN: Direct weight edits turn a 0.5B model into an expert species classifier",
+    "url": "https://andrewxhill.com/frontier-model-weight-edits/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50590838",
+    "points": 4,
+    "commentsCount": 1,
+    "author": "andrewxhill",
+    "postedDate": "2026-11-21",
+    "cluster": "ai-agents",
+    "position": [
+      -26.08,
+      0.31,
+      0.04
+    ],
+    "tags": [
+      "#AI",
+      "#機械学習",
+      "#分類器"
+    ],
+    "summary": {
+      "oneLiner": "重みの直接編集によって0.5Bモデルを専門的な分類器に変換するアプローチ。",
+      "highlights": [
+        "モデルの重みを直接編集することで、特定のタスクに特化した性能を発揮。",
+        "従来のアプローチに比べて、効率的に専門性を向上させる手法を提案。"
+      ],
+      "targetAudience": "AIや機械学習の研究者や開発者に最適。",
+      "hackIdea": "異なるドメインに特化した他のモデルへの応用や、ユーザーが簡単に重みを編集できるツールを提供する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50590215,
+    "title": "Show HN: Bashbots – program bots in Python to battle other players",
+    "url": "https://bashbots.io",
+    "hnUrl": "https://news.ycombinator.com/item?id=50590215",
+    "points": 2,
+    "commentsCount": 0,
+    "author": "eduardoagarcia",
+    "postedDate": "2026-11-21",
+    "cluster": "ai-agents",
+    "position": [
+      -35.89,
+      8.8,
+      -27.8
+    ],
+    "tags": [
+      "#Python",
+      "#ゲーム",
+      "#ボットプログラミング"
+    ],
+    "summary": {
+      "oneLiner": "Pythonでプログラムしたボット同士を戦わせるゲーム。",
+      "highlights": [
+        "自分のボットをプログラムして他のプレイヤーと対戦できる。",
+        "装備アップグレードや他のプレイヤーが公開したパッケージを閲覧可能。"
+      ],
+      "targetAudience": "プログラミングとゲームが好きな人に最適。",
+      "hackIdea": "ボットのAIを強化するためのチューニングオプションを追加したい。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50587571,
+    "title": "Show HN: ClawVet – Offline AST scanner and rug-pull diff for AI agent skills",
+    "url": "https://clawvet.vercel.app/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50587571",
+    "points": 7,
+    "commentsCount": 1,
+    "author": "bazmou",
+    "postedDate": "2026-11-21",
+    "cluster": "ai-agents",
+    "position": [
+      -22.52,
+      4.65,
+      -6.95
+    ],
+    "tags": [
+      "#AI",
+      "#AST",
+      "#スキャナー"
+    ],
+    "summary": {
+      "oneLiner": "AIエージェントのスキルをオフラインで解析するツール。",
+      "highlights": [
+        "オフラインでASTスキャンを行うことで、プライバシーを保護しつつ分析が可能。",
+        "ラグプル検出機能により、投資リスクを低減できる。"
+      ],
+      "targetAudience": "AIエージェントの開発者や投資家に最適。",
+      "hackIdea": "リアルタイムでのフィードバック機能を追加し、ユーザーがスキルを改善できるようにする。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50589036,
+    "title": "Show HN: Atlas of Money",
+    "url": "https://atlasofmoney.org/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50589036",
+    "points": 3,
+    "commentsCount": 0,
+    "author": "teleopbench",
+    "postedDate": "2026-11-21",
+    "cluster": "web-creative",
+    "position": [
+      -22.72,
+      -11.58,
+      35.14
+    ],
+    "tags": [
+      "#マネー",
+      "#ビジュアライゼーション",
+      "#教育"
+    ],
+    "summary": {
+      "oneLiner": "お金の流れを視覚化したインタラクティブなマップ。",
+      "highlights": [
+        "複雑な経済データを分かりやすく表示する新しいアプローチ。",
+        "ユーザーが自分の興味に基づいてデータを探索できるインターフェース。"
+      ],
+      "targetAudience": "経済や金融に興味がある人々。",
+      "hackIdea": "ユーザーにカスタマイズ可能なフィルター機能を追加して、特定のデータセットを深掘りできるようにする。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50561515,
+    "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
+    "url": "https://cornholenews.news",
+    "hnUrl": "https://news.ycombinator.com/item?id=50561515",
+    "points": 237,
+    "commentsCount": 121,
+    "author": "cornholemedia",
+    "postedDate": "2026-11-19",
+    "cluster": "web-creative",
+    "position": [
+      -14.12,
+      -16.51,
+      20.56
+    ],
+    "tags": [
+      "#ニュース",
+      "#地域",
+      "#コミュニティ"
+    ],
+    "summary": {
+      "oneLiner": "中西部のニュースを集めたHacker News風のサイト。",
+      "highlights": [
+        "中西部特化のニュースサイトとして、地域の情報を集約している。",
+        "ユーザーが投稿したニュースをコミュニティで評価できる仕組みを持つ。"
+      ],
+      "targetAudience": "中西部に住む人々や地域ニュースに興味がある人。",
+      "hackIdea": "ユーザーが地域のイベントを投稿できる機能を追加し、インタラクティブ性を高める。"
     },
     "isSupernova": false
   },
@@ -320,364 +723,54 @@
     "postedDate": "2026-11-14",
     "cluster": "devtools-compilers",
     "position": [
-      22.98,
-      8.09,
-      -14.83
+      16.56,
+      6.6,
+      -8.62
     ],
     "tags": [
-      "#Radiotherapy",
+      "#放射線治療",
       "#WebAssembly",
-      "#GPU"
+      "#GPU計算"
     ],
     "summary": {
-      "oneLiner": "最新の放射線治療計画ソフトウェアのデモ。",
+      "oneLiner": "最新のブラウザ技術を用いた放射線治療計画ソフトウェアのデモ。",
       "highlights": [
-        "従来の治療計画ソフトウェアを刷新する現代的な技術スタックを利用。",
-        "ブラウザ内で動作するGPU加速の線量計算エンジンを実装。"
+        "従来の技術スタックを刷新し、現代のブラウザ技術を活用している。",
+        "ブラウザ内で動作するGPU加速の線量計算エンジンを実装している。"
       ],
-      "targetAudience": "放射線治療の専門家や医療技術者。",
-      "hackIdea": "さらなるユーザーインターフェースの改善と、リアルタイムシミュレーション機能の追加。"
+      "targetAudience": "放射線治療分野の専門家や開発者。",
+      "hackIdea": "治療計画のシミュレーション機能を強化し、ユーザーインターフェースをさらに直感的にする。"
     },
     "isSupernova": false
   },
   {
-    "id": 50582578,
-    "title": "Show HN: Trichroma, a Platformer of Light",
-    "url": "https://trichroma.namirsab.dev/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50582578",
-    "points": 3,
-    "commentsCount": 0,
-    "author": "namirsab",
-    "postedDate": "2026-11-20",
-    "cluster": "web-creative",
-    "position": [
-      -24.93,
-      -30.53,
-      6.74
-    ],
-    "tags": [
-      "#ゲーム",
-      "#プラットフォーマー",
-      "#AI"
-    ],
-    "summary": {
-      "oneLiner": "光のプラットフォーマーゲームを紹介します。",
-      "highlights": [
-        "AIを活用した新しいゲーム体験",
-        "色によって異なる視覚体験を提供する独自のアイデア"
-      ],
-      "targetAudience": "ゲーム愛好者やアートに興味がある人々",
-      "hackIdea": "異なるレベルデザインや新しい色のライトエフェクトを追加して、さらなる体験の幅を広げる"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50548660,
-    "title": "Show HN: Mastra Factory, the open-source software factory we use to build Mastra",
-    "url": "https://news.ycombinator.com/item?id=50548660",
-    "hnUrl": "https://news.ycombinator.com/item?id=50548660",
-    "points": 154,
-    "commentsCount": 42,
-    "author": "codekarate",
-    "postedDate": "2026-11-18",
-    "cluster": "devtools-compilers",
-    "position": [
-      4.08,
-      20.43,
-      -13.27
-    ],
-    "tags": [
-      "#オープンソース",
-      "#ソフトウェア工場",
-      "#TypeScript"
-    ],
-    "summary": {
-      "oneLiner": "Mastraのメンテナンスを支援するオープンソースのソフトウェア工場。",
-      "highlights": [
-        "Mastraのダウンロード数が週平均4百万を超える成長を遂げた。",
-        "Mastra FactoryはMastraの開発効率を向上させるために構築された。"
-      ],
-      "targetAudience": "オープンソースソフトウェアの開発者やメンテナンスに関心がある人。",
-      "hackIdea": "Mastra FactoryにCI/CD機能を統合し、さらに自動化を進めることで開発の効率を高める。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50582420,
-    "title": "Show HN: Build a trading bot in 10 seconds",
-    "url": "https://board.blink.cash/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50582420",
-    "points": 3,
-    "commentsCount": 2,
-    "author": "akeyes6",
-    "postedDate": "2026-11-20",
-    "cluster": "ai-agents",
-    "position": [
-      -38.96,
-      10.87,
-      -20.4
-    ],
-    "tags": [
-      "#トレーディングボット",
-      "#AI",
-      "#金融"
-    ],
-    "summary": {
-      "oneLiner": "10秒でトレーディングボットを作成・展開・資金調達できるアプリ。",
-      "highlights": [
-        "新しい戦略をAIと対話して迅速に実装できる。",
-        "過去3年間のトレーディング戦略を簡単に再構築できる。"
-      ],
-      "targetAudience": "トレーディングや投資に興味のある人々。",
-      "hackIdea": "ユーザーが自身の戦略を共有できるコミュニティ機能を追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50582358,
-    "title": "Show HN: Luminol: see what AI evidence a Windows PC holds and when it expires",
-    "url": "https://github.com/adilshadowaiforensics/luminol/releases/tag/v0.1.1",
-    "hnUrl": "https://news.ycombinator.com/item?id=50582358",
-    "points": 3,
-    "commentsCount": 0,
-    "author": "Adil_Ali",
-    "postedDate": "2026-11-20",
-    "cluster": "privacy-decentralized",
-    "position": [
-      30.71,
-      -9.73,
-      29.87
-    ],
-    "tags": [
-      "#AI",
-      "#Forensics",
-      "#Windows"
-    ],
-    "summary": {
-      "oneLiner": "Windows PCが持つAI証拠を確認し、その有効期限を把握できるアプリ。",
-      "highlights": [
-        "AIの証拠を可視化する新機能。",
-        "証拠の有効期限を管理することでプライバシーを強化。"
-      ],
-      "targetAudience": "デジタルフォレンジックやプライバシーに関心のあるユーザー。",
-      "hackIdea": "AIの証拠をリアルタイムでモニタリングし、自動警告機能を追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50581862,
-    "title": "Show HN: Katamaran - Open-source Docker and Linux runtime for Apple Silicon",
-    "url": "https://katamaran.rs/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50581862",
-    "points": 5,
+    "id": 50537626,
+    "title": "Show HN: Professor Euler – Offline math desk, 300-function CAS, workbooks",
+    "url": "https://euler.dawei7.com",
+    "hnUrl": "https://news.ycombinator.com/item?id=50537626",
+    "points": 18,
     "commentsCount": 1,
-    "author": "nklmilojevic",
-    "postedDate": "2026-11-20",
-    "cluster": "systems-hardware",
+    "author": "dawei7",
+    "postedDate": "2026-11-17",
+    "cluster": "productivity-pkm",
     "position": [
-      -10.96,
-      -23.66,
-      -16.24
+      -5.77,
+      33.26,
+      36.96
     ],
     "tags": [
-      "#Docker",
-      "#AppleSilicon",
-      "#OpenSource"
+      "#数学",
+      "#オフライン",
+      "#CAS"
     ],
     "summary": {
-      "oneLiner": "Apple Silicon向けのオープンソースDockerおよびLinuxランタイム。",
+      "oneLiner": "オフラインで使える300機能を備えた数学デスクアプリ。",
       "highlights": [
-        "Apple Siliconに最適化されたDockerとLinux環境を提供。",
-        "オープンソースであり、コミュニティによる改善が期待できる。"
+        "300以上の関数を持つ計算機代数システム（CAS）",
+        "ワークブック機能で数学の学習が可能"
       ],
-      "targetAudience": "Apple Siliconを使用する開発者やエンジニア。",
-      "hackIdea": "より多くのプラグインや拡張機能を追加し、ユーザー体験を向上させる。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50581695,
-    "title": "Show HN: Real-time clicker running on Elixir and a Raspberry Pi at home",
-    "url": "https://tugofwar.vibeapps.cc",
-    "hnUrl": "https://news.ycombinator.com/item?id=50581695",
-    "points": 3,
-    "commentsCount": 0,
-    "author": "egze",
-    "postedDate": "2026-11-20",
-    "cluster": "systems-hardware",
-    "position": [
-      5.62,
-      -34.95,
-      -13.78
-    ],
-    "tags": [
-      "#Elixir",
-      "#RaspberryPi",
-      "#IoT"
-    ],
-    "summary": {
-      "oneLiner": "ElixirとRaspberry Piを使用したリアルタイムクリックアプリ。",
-      "highlights": [
-        "自宅でリアルタイムに動作するクリックアプリ。",
-        "Elixirを活用したスケーラブルな設計。"
-      ],
-      "targetAudience": "IoTやプログラミングに興味のある技術者。",
-      "hackIdea": "データ分析機能を追加して、クリックデータの視覚化を行いたい。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50581030,
-    "title": "Show HN: A browser game about trying to join a meeting",
-    "url": "https://a.drien.com/games/ceci-nest-pas-du-travail/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50581030",
-    "points": 4,
-    "commentsCount": 1,
-    "author": "macNchz",
-    "postedDate": "2026-11-20",
-    "cluster": "web-creative",
-    "position": [
-      -10.04,
-      -28.78,
-      7.67
-    ],
-    "tags": [
-      "#ブラウザーゲーム",
-      "#会議",
-      "#エンターテインメント"
-    ],
-    "summary": {
-      "oneLiner": "会議に参加することをテーマにしたブラウザーゲーム。",
-      "highlights": [
-        "ユニークなテーマでプレイヤーの注意を引く。",
-        "シンプルな操作で誰でも楽しめる設計。"
-      ],
-      "targetAudience": "ゲーム好きやリモートワーカーに刺さりそう。",
-      "hackIdea": "マルチプレイヤーモードを追加して、友人と対戦できる機能を実装する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50581015,
-    "title": "Show HN: Prefixwise 0.12 – a paper and a spec for why prompt caches miss",
-    "url": "https://github.com/tejachavali/prefixwise",
-    "hnUrl": "https://news.ycombinator.com/item?id=50581015",
-    "points": 2,
-    "commentsCount": 0,
-    "author": "tchavali",
-    "postedDate": "2026-11-20",
-    "cluster": "ai-agents",
-    "position": [
-      -14.62,
-      15.25,
-      -0.7
-    ],
-    "tags": [
-      "#AI",
-      "#PromptCaching",
-      "#Research"
-    ],
-    "summary": {
-      "oneLiner": "Promptキャッシュのミスに関する論文と仕様を提供するアプリ。",
-      "highlights": [
-        "Promptキャッシュの効果とその限界を解説する論文を掲載。",
-        "新しいアプローチでパフォーマンスを向上させる仕様を提案。"
-      ],
-      "targetAudience": "AI研究者や開発者に役立つ情報を提供。",
-      "hackIdea": "ユーザーが自身のデータセットを使って性能をテストできる機能を追加したい。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50580994,
-    "title": "Show HN: ArkViz – AI generated software architecture diagrams",
-    "url": "https://arkviz.io",
-    "hnUrl": "https://news.ycombinator.com/item?id=50580994",
-    "points": 2,
-    "commentsCount": 0,
-    "author": "bofia",
-    "postedDate": "2026-11-20",
-    "cluster": "ai-agents",
-    "position": [
-      -41.0,
-      19.93,
-      -30.73
-    ],
-    "tags": [
-      "#AI",
-      "#ソフトウェアアーキテクチャ",
-      "#自動生成"
-    ],
-    "summary": {
-      "oneLiner": "AIを活用してソフトウェアアーキテクチャ図を自動生成するアプリ。",
-      "highlights": [
-        "コードベースから自動的にアーキテクチャ図を生成する機能。",
-        "インタラクティブな視覚表現で、ズームや検索が可能。"
-      ],
-      "targetAudience": "ソフトウェア開発者やアーキテクトに最適。",
-      "hackIdea": "他のプログラミング言語やフレームワークにも対応できるように拡張したり、ユーザーがカスタマイズ可能なテンプレート機能を追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50561515,
-    "title": "Show HN: Cornhole News – A Hacker News inspired site for news across the Midwest",
-    "url": "https://cornholenews.news",
-    "hnUrl": "https://news.ycombinator.com/item?id=50561515",
-    "points": 235,
-    "commentsCount": 119,
-    "author": "cornholemedia",
-    "postedDate": "2026-11-19",
-    "cluster": "web-creative",
-    "position": [
-      -18.44,
-      -13.14,
-      9.85
-    ],
-    "tags": [
-      "#ニュース",
-      "#ミッドウェスト",
-      "#HackerNews風"
-    ],
-    "summary": {
-      "oneLiner": "ミッドウェストのニュースをHacker News風に提供するサイト。",
-      "highlights": [
-        "地域特化型のニュースプラットフォーム",
-        "Hacker Newsのインターフェースを模したデザイン"
-      ],
-      "targetAudience": "ミッドウェストに住む人々や地域ニュースに興味がある人。",
-      "hackIdea": "ユーザー参加型のコメント機能を強化し、地域のイベント情報を追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50574412,
-    "title": "Show HN: Drive around my village in 3D",
-    "url": "https://cherwellvalleymotorclub.app",
-    "hnUrl": "https://news.ycombinator.com/item?id=50574412",
-    "points": 10,
-    "commentsCount": 13,
-    "author": "johnwards",
-    "postedDate": "2026-11-20",
-    "cluster": "web-creative",
-    "position": [
-      -29.3,
-      -32.87,
-      1.86
-    ],
-    "tags": [
-      "#3D",
-      "#ゲーム",
-      "#シミュレーション"
-    ],
-    "summary": {
-      "oneLiner": "ウェブ上で自分の村を3Dでドライブできるアプリ。",
-      "highlights": [
-        "レースやイベント、異なる車両が楽しめる広大なマップを実現。",
-        "AIエージェントを活用し、マルチプレイヤー機能も搭載。"
-      ],
-      "targetAudience": "シミュレーションゲームや3Dアプリに興味のある人々。",
-      "hackIdea": "ユーザーがカスタムコースを作成できる機能を追加する。"
+      "targetAudience": "数学を学ぶ学生や教育者に最適。",
+      "hackIdea": "AIを活用した問題解決のサポート機能を追加する。"
     },
     "isSupernova": false
   },
@@ -687,14 +780,14 @@
     "url": "https://github.com/aryamandarda/tamserve",
     "hnUrl": "https://news.ycombinator.com/item?id=50523377",
     "points": 123,
-    "commentsCount": 15,
+    "commentsCount": 17,
     "author": "aryaman_darda",
     "postedDate": "2026-11-16",
     "cluster": "ai-agents",
     "position": [
-      -52.45,
-      5.47,
-      0.62
+      -19.89,
+      -9.61,
+      -16.02
     ],
     "tags": [
       "#オープンソース",
@@ -702,13 +795,13 @@
       "#オブジェクトトラッキング"
     ],
     "summary": {
-      "oneLiner": "リアルタイムでライブビデオフィードからオブジェクトを追跡するオープンソースアプリ。",
+      "oneLiner": "ライブ映像フィード用のオープンソースリアルタイムオブジェクトトラッキングアプリ。",
       "highlights": [
-        "MetaのSAM 3を利用して、数フレームごとにオブジェクトを見つける。",
-        "軽量トラッカーEdgeTAMを使用して、オブジェクトをスムーズに追跡。"
+        "MetaのSAM 3を使用してリアルタイムでオブジェクトを識別・追跡。",
+        "軽量トラッカーEdgeTAMを活用し、フレーム間の追跡を効率化。"
       ],
-      "targetAudience": "物流や監視カメラを利用する業界の人々に刺さりそう。",
-      "hackIdea": "他のAIモデルとの連携や、トラッキング精度向上のためのアルゴリズム最適化を行いたい。"
+      "targetAudience": "物流や監視業界で働く技術者や研究者に最適。",
+      "hackIdea": "異なるオブジェクトの同時追跡能力を向上させるため、トラッキングアルゴリズムをさらに最適化する。"
     },
     "isSupernova": false
   },
@@ -718,216 +811,59 @@
     "url": "https://typefighter2.com/",
     "hnUrl": "https://news.ycombinator.com/item?id=50544821",
     "points": 148,
-    "commentsCount": 71,
+    "commentsCount": 72,
     "author": "torumitch",
     "postedDate": "2026-11-18",
     "cluster": "productivity-pkm",
     "position": [
-      4.78,
-      8.32,
-      23.69
+      -12.35,
+      29.51,
+      0.29
     ],
     "tags": [
       "#タイピング",
       "#ゲーム",
-      "#学習"
+      "#教育"
     ],
     "summary": {
-      "oneLiner": "タイピングを学ぶためのアーケード風ゲーム。",
+      "oneLiner": "タッチタイピングを学ぶためのアーケード風ゲーム。",
       "highlights": [
-        "アカウント不要で無料でプレイ可能。",
-        "モバイルでも試せるが、物理キーボードが推奨。"
+        "無料でアカウント不要、進捗はローカルに保存される。",
+        "モバイル対応で、物理キーボードがあると最適。"
       ],
-      "targetAudience": "タイピングを習得したい人や、ゲームを楽しみたい学習者。",
-      "hackIdea": "競争要素を追加して、友人とスコアを比較できる機能を実装したい。"
+      "targetAudience": "タイピングを学びたい学生や初心者に最適。",
+      "hackIdea": "オンライン対戦機能を追加して、競争を楽しめるようにする。"
     },
     "isSupernova": false
   },
   {
-    "id": 50577746,
-    "title": "Show HN: Full Production Studio, 77 open-source AI skills for video creators",
-    "url": "https://github.com/alfaris/full-production-studio",
-    "hnUrl": "https://news.ycombinator.com/item?id=50577746",
-    "points": 2,
-    "commentsCount": 0,
-    "author": "ahmedfaris_me",
-    "postedDate": "2026-11-20",
-    "cluster": "ai-agents",
-    "position": [
-      -44.46,
-      16.2,
-      -4.78
-    ],
-    "tags": [
-      "#AI",
-      "#オープンソース",
-      "#動画制作"
-    ],
-    "summary": {
-      "oneLiner": "動画クリエイター向けの77のオープンソースAIスキルを持つフルプロダクションスタジオ。",
-      "highlights": [
-        "77のAIスキルが統合されており、動画制作の幅を広げる。",
-        "オープンソースで提供されており、誰でも利用・改良が可能。"
-      ],
-      "targetAudience": "動画制作を行うクリエイターや開発者に最適。",
-      "hackIdea": "ユーザーが自身のニーズに合わせてAIスキルをカスタマイズできるインターフェースを追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50561436,
-    "title": "Show HN: Watch weight-space programming in action with WebGPU",
-    "url": "https://tabbyml.github.io/weight-space-playground/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50561436",
-    "points": 40,
-    "commentsCount": 6,
-    "author": "wsxiaoys",
-    "postedDate": "2026-11-19",
-    "cluster": "ai-agents",
-    "position": [
-      -27.85,
-      -1.01,
-      -17.74
-    ],
-    "tags": [
-      "#WebGPU",
-      "#LLM",
-      "#weight-space"
-    ],
-    "summary": {
-      "oneLiner": "WebGPUを使ってブラウザ内で重み空間プログラミングを体験できるアプリ。",
-      "highlights": [
-        "LLMの重みを直接編集し、その結果を即座に評価できるインタラクティブな体験。",
-        "勾配降下法を使わずにモデルの重みの0.016%を編集する具体例を示している。"
-      ],
-      "targetAudience": "AIや機械学習に興味があるエンジニアや研究者。",
-      "hackIdea": "ユーザーが独自のモデルをアップロードして、重みを編集できる機能を追加したい。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50577115,
-    "title": "Show HN: LarpLess, open-source study tracker detecting distractions locally",
-    "url": "https://larpless.app/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50577115",
-    "points": 3,
-    "commentsCount": 2,
-    "author": "maergune",
-    "postedDate": "2026-11-20",
+    "id": 50588088,
+    "title": "Show HN: ILoveNotch 2.0 – an open-source Mac notch app with a teleprompter",
+    "url": "https://github.com/niyamvora/ILoveNotch",
+    "hnUrl": "https://news.ycombinator.com/item?id=50588088",
+    "points": 5,
+    "commentsCount": 1,
+    "author": "niyamvora",
+    "postedDate": "2026-11-21",
     "cluster": "productivity-pkm",
     "position": [
-      -2.06,
-      19.73,
-      32.06
+      10.72,
+      36.21,
+      13.45
     ],
     "tags": [
-      "#集中力",
-      "#学習",
-      "#自己改善"
+      "#MacApp",
+      "#OpenSource",
+      "#Teleprompter"
     ],
     "summary": {
-      "oneLiner": "ディストラクションを検知するオープンソースの学習トラッカーアプリ。",
+      "oneLiner": "Macのノッチを活用したオープンソースアプリ。",
       "highlights": [
-        "ローカルAIを使用して画面とカメラをチェックし、勉強中かどうかを判断する。",
-        "macOSおよびWindowsに対応し、学習効率を向上させる機能を提供。"
+        "ノッチを隠す機能に加え、テレプロンプター機能を搭載。",
+        "カスタマイズ可能で、ユーザーのニーズに応じて使える。"
       ],
-      "targetAudience": "集中力を高めたい学生やプロフェッショナル。",
-      "hackIdea": "ユーザーの学習パターンを分析し、カスタマイズされた集中力向上のためのリマインダー機能を追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50575611,
-    "title": "Show HN: Free mastering in the browser, your audio never leaves your machine",
-    "url": "https://synthcamp.net/mastering",
-    "hnUrl": "https://news.ycombinator.com/item?id=50575611",
-    "points": 4,
-    "commentsCount": 0,
-    "author": "Heymow",
-    "postedDate": "2026-11-20",
-    "cluster": "web-creative",
-    "position": [
-      -16.63,
-      -27.16,
-      39.39
-    ],
-    "tags": [
-      "#マスタリング",
-      "#オーディオ",
-      "#ブラウザアプリ"
-    ],
-    "summary": {
-      "oneLiner": "ブラウザ上で音声マスタリングができるアプリ。",
-      "highlights": [
-        "音声データはユーザーのマシンから出ないためプライバシーが保たれる。",
-        "簡単にアクセスできるブラウザベースのツールで、特別なソフトウェアは不要。"
-      ],
-      "targetAudience": "音楽制作や音声処理に興味がある人。",
-      "hackIdea": "AIを用いた音質分析機能を追加して、ユーザーに適したマスタリング設定を提案する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50575442,
-    "title": "Show HN: Quiriz – SQL-Backed Recommendations in Excel, Sheets and PowerPoint",
-    "url": "https://app.quiriz.co/try?q=founder&utm_source=hn",
-    "hnUrl": "https://news.ycombinator.com/item?id=50575442",
-    "points": 3,
-    "commentsCount": 0,
-    "author": "e73414",
-    "postedDate": "2026-11-20",
-    "cluster": "productivity-pkm",
-    "position": [
-      12.2,
-      41.83,
-      11.2
-    ],
-    "tags": [
-      "#SQL",
-      "#Excel",
-      "#PowerPoint",
-      "#Sheets",
-      "#Recommendations"
-    ],
-    "summary": {
-      "oneLiner": "ExcelやSheets、PowerPointで使えるSQLベースのレコメンデーションアプリ。",
-      "highlights": [
-        "SQLを活用してデータからのレコメンデーションを提供。",
-        "複数のオフィスアプリケーションと連携可能で、使い勝手が良い。"
-      ],
-      "targetAudience": "データ分析やプレゼンテーションを行うビジネスパーソン。",
-      "hackIdea": "ユーザーの行動履歴に基づくパーソナライズ機能を追加したい。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50548161,
-    "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
-    "url": "https://rshekhar.com/voyager/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50548161",
-    "points": 236,
-    "commentsCount": 59,
-    "author": "raj-shekhar",
-    "postedDate": "2026-11-18",
-    "cluster": "systems-hardware",
-    "position": [
-      3.36,
-      -36.39,
-      -18.01
-    ],
-    "tags": [
-      "#Voyager1",
-      "#宇宙探査",
-      "#インタラクティブアプリ"
-    ],
-    "summary": {
-      "oneLiner": "宇宙探査機ボイジャー1号を詳細に探索できるインタラクティブなウェブアプリ。",
-      "highlights": [
-        "ボイジャー1号とボイジャー2号の現在位置をリアルタイムで表示。",
-        "核電池やデータコンピュータの内部構造を視覚的に探索可能。"
-      ],
-      "targetAudience": "宇宙ファンや教育者、技術に興味がある人々。",
-      "hackIdea": "ユーザーが自分の宇宙探査機をデザインできる機能を追加。"
+      "targetAudience": "プレゼンや動画制作を行う人に最適なアプリ。",
+      "hackIdea": "音声認識機能を追加して、テキストを自動で読み上げる機能を実装したい。"
     },
     "isSupernova": false
   },
@@ -942,23 +878,180 @@
     "postedDate": "2026-11-17",
     "cluster": "web-creative",
     "position": [
-      -3.78,
-      -15.51,
-      9.09
+      -28.72,
+      -5.59,
+      32.29
     ],
     "tags": [
       "#CSS",
-      "#JavaScript",
-      "#WebDesign"
+      "#WebDesign",
+      "#JavaScript"
     ],
     "summary": {
-      "oneLiner": "JavaScriptがオフでも動作するダイアログ、メニュー、タブを提供するCSSフレームワーク。",
+      "oneLiner": "JavaScriptオフでも動作するダイアログ、メニュー、タブのCSSライブラリ。",
       "highlights": [
-        "JavaScriptが無効な環境でも利用可能なUIコンポーネント。",
-        "シンプルで使いやすい設計が魅力。"
+        "JavaScriptが無効でも機能するUIコンポーネント",
+        "シンプルで直感的なデザイン"
       ],
-      "targetAudience": "ウェブ開発者やデザイナーに最適。",
-      "hackIdea": "さらにカスタマイズ可能なテーマやスタイルオプションを追加して、ユーザーのニーズに応える。"
+      "targetAudience": "軽量なウェブサイトを作りたい開発者やデザイナー。",
+      "hackIdea": "さらにカスタマイズ可能なテーマやスタイルオプションを追加することで、ユーザーのニーズに応じたデザインを提供する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50585601,
+    "title": "Show HN: Tab – a browser engine from scratch in Rust, with a demo to install",
+    "url": "https://gettab.dev/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50585601",
+    "points": 5,
+    "commentsCount": 0,
+    "author": "jakelami",
+    "postedDate": "2026-11-21",
+    "cluster": "devtools-compilers",
+    "position": [
+      13.71,
+      21.89,
+      -8.85
+    ],
+    "tags": [
+      "#Rust",
+      "#BrowserEngine",
+      "#WebDevelopment"
+    ],
+    "summary": {
+      "oneLiner": "Rustでゼロから作られたブラウザエンジンのデモアプリ。",
+      "highlights": [
+        "Rustを使用して独自のブラウザエンジンを構築",
+        "インストール可能なデモが提供されている"
+      ],
+      "targetAudience": "ブラウザ開発やRustに興味がある開発者。",
+      "hackIdea": "さらなる機能追加や他のプラットフォームへの対応を進める。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50587486,
+    "title": "Show HN: PocketTransfer – iPhone to PC/Mac file transfer in the browser",
+    "url": "https://pockettransfer.app/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50587486",
+    "points": 4,
+    "commentsCount": 1,
+    "author": "wentalau",
+    "postedDate": "2026-11-21",
+    "cluster": "web-creative",
+    "position": [
+      -18.04,
+      -3.69,
+      25.64
+    ],
+    "tags": [
+      "#ファイル転送",
+      "#iPhone",
+      "#PC",
+      "#Mac",
+      "#ブラウザ"
+    ],
+    "summary": {
+      "oneLiner": "iPhoneからPC/Macへブラウザ経由でファイルを転送するアプリ。",
+      "highlights": [
+        "ブラウザを通じて簡単にファイルを転送できる利便性。",
+        "特別なソフトウェアをインストールする必要がない点。"
+      ],
+      "targetAudience": "iPhoneユーザーでPC/Macにファイルを簡単に転送したい人。",
+      "hackIdea": "ファイル転送の際に、バルク転送のオプションやドラッグ＆ドロップ機能を追加する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50548161,
+    "title": "Show HN: Take Voyager 1 apart, down to a single memory chip",
+    "url": "https://rshekhar.com/voyager/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50548161",
+    "points": 238,
+    "commentsCount": 60,
+    "author": "raj-shekhar",
+    "postedDate": "2026-11-18",
+    "cluster": "systems-hardware",
+    "position": [
+      -7.67,
+      -27.97,
+      -21.83
+    ],
+    "tags": [
+      "#Voyager",
+      "#宇宙",
+      "#技術"
+    ],
+    "summary": {
+      "oneLiner": "宇宙探査機ボイジャー1号を分解して体験できるウェブアプリ。",
+      "highlights": [
+        "ボイジャーの現在位置をリアルタイムで確認できる。",
+        "核バッテリーやデータコンピュータの内部を詳細に探査できる。"
+      ],
+      "targetAudience": "宇宙や技術に興味がある人々。",
+      "hackIdea": "ユーザーが自分の探査機をデザインできる機能を追加する。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50574412,
+    "title": "Show HN: Drive around my village in 3D",
+    "url": "https://cherwellvalleymotorclub.app",
+    "hnUrl": "https://news.ycombinator.com/item?id=50574412",
+    "points": 12,
+    "commentsCount": 13,
+    "author": "johnwards",
+    "postedDate": "2026-11-20",
+    "cluster": "web-creative",
+    "position": [
+      -35.99,
+      -25.09,
+      4.25
+    ],
+    "tags": [
+      "#3D",
+      "#ゲーム",
+      "#シミュレーション"
+    ],
+    "summary": {
+      "oneLiner": "自分の村を3Dでドライブできるウェブアプリ。",
+      "highlights": [
+        "村全体を探索できる大規模なマップがある。",
+        "レースやイベント、マルチプレイヤー機能を搭載している。"
+      ],
+      "targetAudience": "ゲームやシミュレーションを楽しむ人々。",
+      "hackIdea": "ユーザーが自分の車をカスタマイズできる機能を追加したい。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50561436,
+    "title": "Show HN: Watch weight-space programming in action with WebGPU",
+    "url": "https://tabbyml.github.io/weight-space-playground/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50561436",
+    "points": 40,
+    "commentsCount": 6,
+    "author": "wsxiaoys",
+    "postedDate": "2026-11-19",
+    "cluster": "ai-agents",
+    "position": [
+      -44.31,
+      4.79,
+      -4.8
+    ],
+    "tags": [
+      "#WebGPU",
+      "#LLM",
+      "#WeightSpaceProgramming"
+    ],
+    "summary": {
+      "oneLiner": "ブラウザ上で重み空間プログラミングを体験できるインタラクティブなアプリ。",
+      "highlights": [
+        "LLMの重みを編集し、評価する完全なループを構築。",
+        "具体的な例を通じて、モデルの0.016%の重みを調整するプロセスを示す。"
+      ],
+      "targetAudience": "AIや機械学習に興味がある開発者や研究者。",
+      "hackIdea": "ユーザーが自分のモデルをアップロードし、カスタマイズできる機能を追加する。"
     },
     "isSupernova": false
   },
@@ -967,15 +1060,15 @@
     "title": "Show HN: ExitPath – Open-source ways out of Slack, Notion and Microsoft 365",
     "url": "https://exitpath-ruddy.vercel.app/",
     "hnUrl": "https://news.ycombinator.com/item?id=50547980",
-    "points": 250,
-    "commentsCount": 93,
+    "points": 251,
+    "commentsCount": 94,
     "author": "zerocool0101",
     "postedDate": "2026-11-18",
     "cluster": "productivity-pkm",
     "position": [
-      5.03,
-      34.9,
-      14.76
+      11.59,
+      33.65,
+      25.53
     ],
     "tags": [
       "#Slack",
@@ -985,44 +1078,75 @@
       "#生産性向上"
     ],
     "summary": {
-      "oneLiner": "Slack、Notion、Microsoft 365からの脱出方法を提供するオープンソースのアプリ。",
+      "oneLiner": "Slack、Notion、Microsoft 365からの脱却方法を提供するオープンソースアプリ。",
       "highlights": [
-        "ユーザーが一般的なプラットフォームからの移行をサポートするためのツールを提供。",
-        "オープンソースであるため、カスタマイズや拡張が可能。"
+        "多くの人気ツールからの代替手段を提案。",
+        "オープンソースのため、自由にカスタマイズ可能。"
       ],
-      "targetAudience": "生産性ツールの代替を探しているユーザーや開発者。",
-      "hackIdea": "他のプラットフォームとの連携機能を追加し、より多くの選択肢を提供する。"
+      "targetAudience": "生産性向上を目指すユーザーやチーム。",
+      "hackIdea": "他のコラボレーションツールとの統合機能を追加し、さらに便利にする。"
     },
     "isSupernova": false
   },
   {
-    "id": 50582250,
-    "title": "Show HN: Made a career portal for EU agencies",
-    "url": "https://civicjobs.eu/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50582250",
-    "points": 2,
-    "commentsCount": 0,
-    "author": "usernametaken29",
+    "id": 50586323,
+    "title": "Show HN: Musset, open-source Scrivener alternative with an AI that never writes",
+    "url": "https://github.com/Musset-App/musset",
+    "hnUrl": "https://news.ycombinator.com/item?id=50586323",
+    "points": 5,
+    "commentsCount": 2,
+    "author": "julienmarie",
+    "postedDate": "2026-11-21",
+    "cluster": "productivity-pkm",
+    "position": [
+      17.18,
+      36.96,
+      6.7
+    ],
+    "tags": [
+      "#AI",
+      "#ノート",
+      "#執筆"
+    ],
+    "summary": {
+      "oneLiner": "AIとMarkdownを活用した執筆支援アプリ。",
+      "highlights": [
+        "Markdownファイルを使った簡潔な構造で、作品をフォルダとして管理。",
+        "AIを用いて執筆中にアイデアを議論できる機能がある。"
+      ],
+      "targetAudience": "執筆を行うクリエイターや作家に最適。",
+      "hackIdea": "AIの提案機能を強化し、執筆スタイルに応じたカスタマイズを可能にする。"
+    },
+    "isSupernova": false
+  },
+  {
+    "id": 50582578,
+    "title": "Show HN: Trichroma, a Platformer of Light",
+    "url": "https://trichroma.namirsab.dev/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50582578",
+    "points": 6,
+    "commentsCount": 2,
+    "author": "namirsab",
     "postedDate": "2026-11-20",
     "cluster": "web-creative",
     "position": [
-      -16.73,
-      -16.65,
-      7.51
+      -35.6,
+      -25.16,
+      2.9
     ],
     "tags": [
-      "#EUJobs",
-      "#CareerPortal",
-      "#JobSearch"
+      "#ゲーム",
+      "#プラットフォーマー",
+      "#AI"
     ],
     "summary": {
-      "oneLiner": "EU機関の求人を一元検索できるポータルサイトです。",
+      "oneLiner": "色の光によって異なる体験ができるプラットフォーマーゲーム。",
       "highlights": [
-        "EU機関の求人情報を簡単に検索できる機能を提供",
-        "ユーザーが求める求人情報をすぐに見つけられる利便性"
+        "AIを活用して現代の技術を駆使したゲームデザイン。",
+        "兄との会話からインスピレーションを受けた独自のビジュアル体験。"
       ],
-      "targetAudience": "EU機関での仕事を探している求職者に刺さりそう。",
-      "hackIdea": "求人情報のフィルタリング機能を追加し、ユーザーの条件に合った求人をより簡単に見つけられるようにしたい。"
+      "targetAudience": "ゲームやアートに興味がある人々。",
+      "hackIdea": "異なる色の光によって変化するレベルやアイテムを追加し、プレイヤーにさらに多様な体験を提供する。"
     },
     "isSupernova": false
   },
@@ -1037,9 +1161,9 @@
     "postedDate": "2026-11-17",
     "cluster": "ai-agents",
     "position": [
-      -49.25,
-      12.36,
-      -5.83
+      -23.28,
+      -11.28,
+      -7.44
     ],
     "tags": [
       "#LLM",
@@ -1049,198 +1173,73 @@
     "summary": {
       "oneLiner": "AWS Trainium向けのオープンソースLLM推論エンジン。",
       "highlights": [
-        "GLM 5.3 flashを2インスタンス同時に処理可能。",
-        "3.57M TPMを達成した高性能なベンチマーク。"
+        "GLM 5.3 flashを効率的にサポートし、トークン処理能力が高い。",
+        "オープンソースであり、貢献を受け付けている。"
       ],
-      "targetAudience": "AIモデルの推論性能を向上させたい開発者。",
-      "hackIdea": "さらなるモデルサポートを追加し、ユーザーからのフィードバックを基に機能を改善する。"
+      "targetAudience": "AIや機械学習に興味のある開発者。",
+      "hackIdea": "他のモデルのサポートを追加し、パフォーマンスをさらに向上させる。"
     },
     "isSupernova": false
   },
   {
-    "id": 50552140,
-    "title": "Show HN: Robotics needs better CAD, so I wrote a B-rep kernel and 3,487 tests",
-    "url": "https://springcraft-ai.github.io/springrep/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50552140",
-    "points": 34,
-    "commentsCount": 9,
-    "author": "atomarch",
-    "postedDate": "2026-11-18",
-    "cluster": "devtools-compilers",
+    "id": 50581718,
+    "title": "Show HN: Bellripple – a quiet Korean temple garden in the browser",
+    "url": "https://bellripple.com/",
+    "hnUrl": "https://news.ycombinator.com/item?id=50581718",
+    "points": 4,
+    "commentsCount": 0,
+    "author": "bobwoo",
+    "postedDate": "2026-11-20",
+    "cluster": "web-creative",
     "position": [
-      11.56,
-      22.62,
-      -20.55
+      -29.42,
+      -8.36,
+      23.66
     ],
     "tags": [
-      "#CAD",
-      "#B-rep",
-      "#Rust",
-      "#開発ツール"
+      "#KoreanTemple",
+      "#Garden",
+      "#WebApp"
     ],
     "summary": {
-      "oneLiner": "ロボット部品のための新しいB-repカーネルを開発しました。",
+      "oneLiner": "ブラウザで楽しむ静かな韓国の寺院庭園。",
       "highlights": [
-        "MITライセンスで提供される新しいB-repカーネルを開発",
-        "安全なRustで書かれた依存関係のないカーネル"
+        "リアルな韓国の寺院庭園を再現したインタラクティブな体験。",
+        "ストレスを軽減するための静かなデザインと雰囲気。"
       ],
-      "targetAudience": "CADモデリングやロボティクスに興味のある開発者",
-      "hackIdea": "さらなるCAD機能追加や他のCADソフトとの統合を考えたい"
+      "targetAudience": "癒しを求める人やウェブデザインに興味がある人。",
+      "hackIdea": "ユーザーが自分の庭をカスタマイズできる機能を追加したい。"
     },
     "isSupernova": false
   },
   {
-    "id": 50572389,
-    "title": "Show HN: Deflate X-Ray, See inside a compressed file",
-    "url": "https://hrih.si/projects/deflate-xray/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50572389",
+    "id": 50585876,
+    "title": "Show HN: Factuio – A factory TUI game written in Rust",
+    "url": "https://github.com/ja7er/factuio",
+    "hnUrl": "https://news.ycombinator.com/item?id=50585876",
     "points": 2,
     "commentsCount": 0,
-    "author": "DonAtimator",
-    "postedDate": "2026-11-20",
+    "author": "merlin_sh",
+    "postedDate": "2026-11-21",
     "cluster": "devtools-compilers",
     "position": [
-      38.86,
-      24.11,
-      -6.91
+      15.18,
+      14.89,
+      -22.34
     ],
     "tags": [
-      "#圧縮ファイル",
-      "#ツール",
-      "#開発"
+      "#Rust",
+      "#TUI",
+      "#ゲーム"
     ],
     "summary": {
-      "oneLiner": "圧縮ファイルの内部を視覚化するツール。",
+      "oneLiner": "Rustで作られた工場経営シミュレーションゲームです。",
       "highlights": [
-        "圧縮されたファイルの内容を視覚的に表示するユニークな機能。",
-        "開発者やデータサイエンティストに役立つ、圧縮ファイルの解析が容易になる。"
+        "テキストユーザーインターフェース（TUI）を使用した新しいゲーム体験",
+        "Rustの性能と安全性を活かしたゲームの実装"
       ],
-      "targetAudience": "圧縮ファイルを扱う開発者やデータ分析者に最適。",
-      "hackIdea": "さらなる圧縮アルゴリズムのサポートや、GUIの追加によるユーザーフレンドリーなインターフェースの実装。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50556534,
-    "title": "Show HN: Zpup – Zdog style 3D scenes in JSON, SVG from any angle",
-    "url": "https://github.com/rxolve/zpup",
-    "hnUrl": "https://news.ycombinator.com/item?id=50556534",
-    "points": 16,
-    "commentsCount": 0,
-    "author": "select1dev",
-    "postedDate": "2026-11-19",
-    "cluster": "web-creative",
-    "position": [
-      -20.19,
-      -19.5,
-      3.59
-    ],
-    "tags": [
-      "#3D",
-      "#SVG",
-      "#JSON"
-    ],
-    "summary": {
-      "oneLiner": "JSONで書かれた3DシーンをSVGに変換するツール。",
-      "highlights": [
-        "JavaScriptを使用せず、imgタグやREADMEに埋め込める。",
-        "Zdogの現代版として、小さなプロジェクトに特化している。"
-      ],
-      "targetAudience": "3DデザインやWebフロントエンドに興味がある開発者。",
-      "hackIdea": "ユーザーが自分の3Dシーンを簡単にカスタマイズできるインターフェースを追加する。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50572351,
-    "title": "Show HN: Reaktiv Workbook – A spreadsheet where every cell is Python",
-    "url": "https://workbook.bui.app/",
-    "hnUrl": "https://news.ycombinator.com/item?id=50572351",
-    "points": 7,
-    "commentsCount": 5,
-    "author": "buibuibui",
-    "postedDate": "2026-11-20",
-    "cluster": "productivity-pkm",
-    "position": [
-      15.38,
-      36.99,
-      12.5
-    ],
-    "tags": [
-      "#Python",
-      "#Spreadsheet",
-      "#Productivity"
-    ],
-    "summary": {
-      "oneLiner": "Pythonを使った革新的なスプレッドシートアプリ。",
-      "highlights": [
-        "すべてのセルでPythonコードを実行できる機能。",
-        "データ分析や計算を直感的に行える環境を提供。"
-      ],
-      "targetAudience": "プログラマーやデータ分析を行う人々に最適。",
-      "hackIdea": "他のプログラミング言語やライブラリの統合機能を追加し、さらなる分析能力を向上させる。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50496787,
-    "title": "Show HN: Zigzag, a native Mac browser for people leaving Arc",
-    "url": "https://github.com/ZigaoWang/zigzag",
-    "hnUrl": "https://news.ycombinator.com/item?id=50496787",
-    "points": 123,
-    "commentsCount": 75,
-    "author": "ZigaoWang",
-    "postedDate": "2026-11-14",
-    "cluster": "web-creative",
-    "position": [
-      -13.28,
-      -25.56,
-      2.74
-    ],
-    "tags": [
-      "#ブラウザ",
-      "#Mac",
-      "#オープンソース"
-    ],
-    "summary": {
-      "oneLiner": "Mac向けの新しいブラウザZigzagを開発。",
-      "highlights": [
-        "Arcの終了を受けて新たにブラウザを開発した。",
-        "ChromiumフォークやAI統合ブラウザに代わる選択肢を提供。"
-      ],
-      "targetAudience": "Arcを使用していたが代替を探しているユーザー。",
-      "hackIdea": "ユーザーのフィードバックを基に機能改善やデザインのアップデートを行う。"
-    },
-    "isSupernova": false
-  },
-  {
-    "id": 50554973,
-    "title": "Show HN: ADE Index – a sourced and ranked index of 975 agentic coding tools",
-    "url": "https://adeindex.com",
-    "hnUrl": "https://news.ycombinator.com/item?id=50554973",
-    "points": 25,
-    "commentsCount": 7,
-    "author": "jonnyasmar",
-    "postedDate": "2026-11-19",
-    "cluster": "devtools-compilers",
-    "position": [
-      27.39,
-      31.46,
-      -12.25
-    ],
-    "tags": [
-      "#coding",
-      "#tools",
-      "#agentic"
-    ],
-    "summary": {
-      "oneLiner": "975のエージェント型コーディングツールを集めたインデックス。",
-      "highlights": [
-        "多様なエージェント型ツールがランク付けされている。",
-        "開発者が必要なツールを簡単に見つけられるように設計されている。"
-      ],
-      "targetAudience": "開発者やプログラマーに最適。",
-      "hackIdea": "ツールの使用例やレビューを追加して、ユーザーの参考になる情報を充実させる。"
+      "targetAudience": "Rustプログラミングに興味があるゲーム愛好者",
+      "hackIdea": "オンラインマルチプレイヤーモードを追加し、プレイヤー同士の競争を促進する。"
     },
     "isSupernova": false
   }
